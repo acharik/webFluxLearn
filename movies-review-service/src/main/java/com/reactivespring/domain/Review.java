@@ -16,6 +16,7 @@ import javax.validation.constraints.Min;
 public class Review {
 
     @Id
+
     private String reviewId;
     private Long movieInfoId;
     private String comment;
